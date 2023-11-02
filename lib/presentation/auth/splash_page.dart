@@ -1,7 +1,6 @@
+import 'package:fic9_ecommerce/common/constants/images.dart';
+import 'package:fic9_ecommerce/presentation/auth/login_page.dart';
 import 'package:flutter/material.dart';
-
-import '../../common/constants/images.dart';
-import 'login_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -14,7 +13,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     Future.delayed(
-      const Duration(seconds: 3),
+      const Duration(milliseconds: 3000),
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(

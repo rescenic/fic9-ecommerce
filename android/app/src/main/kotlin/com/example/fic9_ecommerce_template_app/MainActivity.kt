@@ -1,4 +1,4 @@
-package com.example.fic9_ecommerce_template_app
+package xyz.rescenic.fic9_ecommerce
 
 import io.flutter.embedding.android.FlutterActivity
 

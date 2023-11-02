@@ -1,6 +1,6 @@
 {
-    "name": "fic9_ecommerce_template_app",
-    "short_name": "fic9_ecommerce_template_app",
+    "name": "fic9_ecommerce",
+    "short_name": "fic9_ecommerce",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

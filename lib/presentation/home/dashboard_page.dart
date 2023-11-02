@@ -1,7 +1,8 @@
+import 'package:fic9_ecommerce/common/constants/images.dart';
+import 'package:fic9_ecommerce/presentation/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../common/constants/colors.dart';
-import '../../common/constants/images.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -14,7 +15,7 @@ class _DashboardPageState extends State<DashboardPage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    const Center(child: Text('Home Page')),
+    const HomePage(),
     const Center(
       child: Text('Explore Page'),
     ),
